@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{96b84b17-c561-4adb-90f7-e19abf7d84b0}</formid>
+    <IntroducedVersion>1.0.0.1</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form maxWidth="400">
+      <tabs>
+        <tab id="{017bfc94-36e5-4acb-98fa-1d6f3c4f217b}" name="tab_1" showlabel="false">
+          <labels>
+            <label description="Tab" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section id="{ae5effd0-0e8d-454c-ba2a-6c65e1b5fe35}" name="tab_1_column_1_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" locklevel="0" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Skills" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{dae9cd73-51cd-3b87-7e5d-c13c0226209c}" showlabel="false" colspan="1" auto="false" rowspan="7">
+                        <labels>
+                          <label description="Competency Requirements (Resource Requirement)" languagecode="1033" />
+                        </labels>
+                        <control id="Competencies" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" uniqueid="{8a85ad5d-948b-d695-a6ed-58c05601a262}" indicationOfSubgrid="true">
+                          <parameters>
+                            <ViewId>{B66CDDF6-F88B-48AA-B030-C61E86322DC5}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>msdyn_resourcerequirement_requirementcharacteristic_resourcerequirement</RelationshipName>
+                            <TargetEntityType>msdyn_requirementcharacteristic</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{B66CDDF6-F88B-48AA-B030-C61E86322DC5}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>Grid</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>false</EnableChartPicker>
+                            <RecordsPerPage>5</RecordsPerPage>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+                <section name="tab_1_section_2" showlabel="true" showbar="false" locklevel="0" id="{6bacb858-8344-38dd-3b37-3337665b3238}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Roles" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{75a0cd18-0c71-788d-eb6b-e8a91918a535}" showlabel="false" colspan="1" auto="false" rowspan="7">
+                        <labels>
+                          <label description="Roles" languagecode="1033" />
+                        </labels>
+                        <control id="Roles" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{843d8146-0d52-ae0b-d19d-a85cab00de08}">
+                          <parameters>
+                            <ViewId>{907230F7-82C8-4858-AFA3-44529DDB7168}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>msdyn_resourcerequirement_requirementresourcecategory_resourcerequirement</RelationshipName>
+                            <TargetEntityType>msdyn_requirementresourcecategory</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{907230F7-82C8-4858-AFA3-44529DDB7168}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>5</RecordsPerPage>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="2">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+      </DisplayConditions>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Competencies" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

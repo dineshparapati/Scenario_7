@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModule>
+  <UniqueName>msdyn_ResourceScheduling</UniqueName>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <WebResourceId>be288467-374d-4494-ab1b-f60e341f5455</WebResourceId>
+  <FormFactor>1</FormFactor>
+  <ClientType>4</ClientType>
+  <AppModuleComponents>
+    <AppModuleComponent type="1" schemaName="account" />
+    <AppModuleComponent type="1" schemaName="bookableresource" />
+    <AppModuleComponent type="1" schemaName="bookableresourcebooking" />
+    <AppModuleComponent type="1" schemaName="bookableresourcebookingheader" />
+    <AppModuleComponent type="1" schemaName="bookableresourcecategory" />
+    <AppModuleComponent type="1" schemaName="bookableresourcecharacteristic" />
+    <AppModuleComponent type="1" schemaName="bookingstatus" />
+    <AppModuleComponent type="1" schemaName="characteristic" />
+    <AppModuleComponent type="1" schemaName="contact" />
+    <AppModuleComponent type="1" schemaName="msdyn_actual" />
+    <AppModuleComponent type="1" schemaName="msdyn_bookingalert" />
+    <AppModuleComponent type="1" schemaName="msdyn_bookingalertstatus" />
+    <AppModuleComponent type="1" schemaName="msdyn_bookingchange" />
+    <AppModuleComponent type="1" schemaName="msdyn_bookingrule" />
+    <AppModuleComponent type="1" schemaName="msdyn_bookingsetupmetadata" />
+    <AppModuleComponent type="1" schemaName="msdyn_clientextension" />
+    <AppModuleComponent type="1" schemaName="msdyn_configuration" />
+    <AppModuleComponent type="1" schemaName="msdyn_organizationalunit" />
+    <AppModuleComponent type="1" schemaName="msdyn_priority" />
+    <AppModuleComponent type="1" schemaName="msdyn_requirementcharacteristic" />
+    <AppModuleComponent type="1" schemaName="msdyn_requirementgroup" />
+    <AppModuleComponent type="1" schemaName="msdyn_requirementorganizationunit" />
+    <AppModuleComponent type="1" schemaName="msdyn_requirementresourcecategory" />
+    <AppModuleComponent type="1" schemaName="msdyn_requirementresourcepreference" />
+    <AppModuleComponent type="1" schemaName="msdyn_requirementstatus" />
+    <AppModuleComponent type="1" schemaName="msdyn_resourcerequirement" />
+    <AppModuleComponent type="1" schemaName="msdyn_resourcerequirementdetail" />
+    <AppModuleComponent type="1" schemaName="msdyn_resourceterritory" />
+    <AppModuleComponent type="1" schemaName="msdyn_scheduleboardsetting" />
+    <AppModuleComponent type="1" schemaName="msdyn_schedulingparameter" />
+    <AppModuleComponent type="1" schemaName="msdyn_systemuserschedulersetting" />
+    <AppModuleComponent type="1" schemaName="msdyn_timegroup" />
+    <AppModuleComponent type="1" schemaName="msdyn_timegroupdetail" />
+    <AppModuleComponent type="1" schemaName="msdyn_transactionorigin" />
+    <AppModuleComponent type="1" schemaName="msdyn_workhourtemplate" />
+    <AppModuleComponent type="1" schemaName="ratingvalue" />
+    <AppModuleComponent type="1" schemaName="systemuser" />
+    <AppModuleComponent type="29" id="{26017ee2-377f-450b-9d47-7b25b5fad70d}" />
+    <AppModuleComponent type="29" id="{29f30a40-ba72-43b0-9ed3-b5115ffb07da}" />
+    <AppModuleComponent type="29" id="{2c4cb6c5-9661-4bd1-a5da-68dc8980c972}" />
+    <AppModuleComponent type="29" id="{4b16e30c-161e-e711-8113-00155db9f410}" />
+    <AppModuleComponent type="29" id="{4ece9a3e-aa4b-e711-8121-00155db9e200}" />
+    <AppModuleComponent type="29" id="{533e4ae6-bbcb-4396-9158-75e6b6bee7e9}" />
+    <AppModuleComponent type="29" id="{59d0ca63-0c72-4399-9a16-746bd56bc57d}" />
+    <AppModuleComponent type="29" id="{5aa5f3fd-593d-4603-bc81-209e4d6ca8f4}" />
+    <AppModuleComponent type="29" id="{62931a15-507b-4bf4-a7ac-da8fbd42a742}" />
+    <AppModuleComponent type="29" id="{6545e02c-d37a-4ecc-a192-12d57f6fa299}" />
+    <AppModuleComponent type="29" id="{7830c150-1451-40cd-9e78-2cba73740f55}" />
+    <AppModuleComponent type="29" id="{853d45cf-c3a5-464e-a23c-04133fde9ce5}" />
+    <AppModuleComponent type="29" id="{87ffb0f2-1b89-48e4-b9a6-669fa68080dc}" />
+    <AppModuleComponent type="29" id="{8cadb5cf-5d1e-491f-886d-e849b6bb575e}" />
+    <AppModuleComponent type="29" id="{8f099999-5c8e-427e-aba9-c608572a3e97}" />
+    <AppModuleComponent type="29" id="{a3358130-1794-e711-8121-000d3a70156f}" />
+    <AppModuleComponent type="29" id="{ad93925b-8ae8-427f-94f8-64cdc9f4cc5a}" />
+    <AppModuleComponent type="29" id="{b105e8ee-6f06-41d0-82df-dc5d6072aeb2}" />
+    <AppModuleComponent type="29" id="{b4db59fa-75b6-4921-98b0-4fabea8916b9}" />
+    <AppModuleComponent type="29" id="{c1e0dd26-c526-44f6-89eb-b9b02834109b}" />
+    <AppModuleComponent type="29" id="{cb0bd929-6a29-4519-8e7d-cadea9aa33ba}" />
+    <AppModuleComponent type="29" id="{e6016233-5292-e611-8114-00155db8c802}" />
+    <AppModuleComponent type="29" id="{e81dc124-1b92-4f16-8f52-9188fd174f75}" />
+    <AppModuleComponent type="29" id="{e84a7193-1591-4918-b5ed-13078ca1a28b}" />
+    <AppModuleComponent type="29" id="{f1587abf-183c-448a-8419-0f33ea30b7ff}" />
+    <AppModuleComponent type="60" id="{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}" />
+    <AppModuleComponent type="60" id="{3e8942a7-ff8e-4634-84ec-8ce174ab807c}" />
+    <AppModuleComponent type="60" id="{cdacb5a7-493b-4b16-88a6-b576936f0e60}" />
+    <AppModuleComponent type="60" id="{5f07ead5-c98f-4a37-aca4-89a7aab2f681}" />
+    <AppModuleComponent type="60" id="{6fd83ad2-b6f2-4bc6-9521-46be56de0fdd}" />
+    <AppModuleComponent type="60" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
+    <AppModuleComponent type="60" id="{8be6de4f-d6c3-4633-ac5d-92160e4b70bb}" />
+    <AppModuleComponent type="60" id="{c2cd9e55-d4b4-4b55-9951-16ead79643e5}" />
+    <AppModuleComponent type="60" id="{eb01b060-e060-42db-9764-6cdcba86da84}" />
+    <AppModuleComponent type="62" schemaName="msdyn_ResourceScheduling" />
+    <AppModuleComponent type="1" schemaName="msdyn_requirementstatus" />
+    <AppModuleComponent type="1" schemaName="msdyn_priority" />
+    <AppModuleComponent type="1" schemaName="ratingmodel" />
+    <AppModuleComponent type="1" schemaName="contact" />
+    <AppModuleComponent type="1" schemaName="msdyn_postruleconfig" />
+    <AppModuleComponent type="1" schemaName="goalrollupquery" />
+    <AppModuleComponent type="1" schemaName="bookableresourcebooking" />
+    <AppModuleComponent type="1" schemaName="msdyn_organizationalunit" />
+    <AppModuleComponent type="1" schemaName="bookableresourcecategory" />
+    <AppModuleComponent type="1" schemaName="product" />
+    <AppModuleComponent type="1" schemaName="workflow" />
+    <AppModuleComponent type="1" schemaName="newprocess" />
+    <AppModuleComponent type="1" schemaName="opportunity" />
+    <AppModuleComponent type="1" schemaName="kbarticle" />
+    <AppModuleComponent type="1" schemaName="invoice" />
+    <AppModuleComponent type="1" schemaName="contract" />
+    <AppModuleComponent type="1" schemaName="incident" />
+    <AppModuleComponent type="1" schemaName="report" />
+    <AppModuleComponent type="1" schemaName="queue" />
+    <AppModuleComponent type="1" schemaName="msdyn_workhourtemplate" />
+    <AppModuleComponent type="1" schemaName="leadtoopportunitysalesprocess" />
+    <AppModuleComponent type="1" schemaName="activitypointer" />
+    <AppModuleComponent type="1" schemaName="metric" />
+    <AppModuleComponent type="1" schemaName="campaign" />
+    <AppModuleComponent type="1" schemaName="list" />
+    <AppModuleComponent type="1" schemaName="msdyn_resourcerequirement" />
+    <AppModuleComponent type="1" schemaName="queueitem" />
+    <AppModuleComponent type="1" schemaName="solution" />
+    <AppModuleComponent type="1" schemaName="translationprocess" />
+    <AppModuleComponent type="1" schemaName="socialprofile" />
+    <AppModuleComponent type="1" schemaName="knowledgearticle" />
+    <AppModuleComponent type="1" schemaName="competitor" />
+    <AppModuleComponent type="1" schemaName="lead" />
+    <AppModuleComponent type="1" schemaName="bulkoperation" />
+    <AppModuleComponent type="1" schemaName="bookingstatus" />
+    <AppModuleComponent type="1" schemaName="service" />
+    <AppModuleComponent type="1" schemaName="opportunitysalesprocess" />
+    <AppModuleComponent type="1" schemaName="goal" />
+    <AppModuleComponent type="1" schemaName="account" />
+    <AppModuleComponent type="1" schemaName="sharepointdocumentlocation" />
+    <AppModuleComponent type="1" schemaName="characteristic" />
+    <AppModuleComponent type="1" schemaName="salesliterature" />
+    <AppModuleComponent type="1" schemaName="salesorder" />
+    <AppModuleComponent type="1" schemaName="sharepointsite" />
+    <AppModuleComponent type="1" schemaName="expiredprocess" />
+    <AppModuleComponent type="1" schemaName="bookableresource" />
+    <AppModuleComponent type="1" schemaName="syncerror" />
+    <AppModuleComponent type="1" schemaName="msdyn_postconfig" />
+    <AppModuleComponent type="1" schemaName="quote" />
+    <AppModuleComponent type="1" schemaName="phonetocaseprocess" />
+  </AppModuleComponents>
+  <AppModuleRoleMaps>
+    <Role id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+    <Role id="{627090ff-40a3-4053-8790-584edc5be201}" />
+  </AppModuleRoleMaps>
+  <LocalizedNames>
+    <LocalizedName description="Universal Resource Scheduling" languagecode="1033" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description description="Provides access to the Universal Resource Scheduling solution" languagecode="1033" />
+  </Descriptions>
+</AppModule>

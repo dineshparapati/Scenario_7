@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{18cffe78-fb86-4742-bc2e-79853e0f3f7c}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form maxWidth="1900">
+      <tabs>
+        <tab id="{e2eeb897-9ea5-4eb7-9d5f-86411d3bc8d9}" name="tab_1" showlabel="false">
+          <labels>
+            <label description="Tab" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="33%">
+              <sections>
+                <section id="{9bb3c1d6-ee92-4c8b-a74e-9dfb009935d7}" name="GeneralSection" columns="1" showlabel="false" showbar="false" IsUserDefined="0" locklevel="0" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{33dbb3e6-200d-a24d-35d8-a0cb174d02eb}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msdyn_name" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c1b01591-28cc-5d82-70dc-6eddd78096bd}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Transaction Cut Off Date" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_transactioncutoffdate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="msdyn_transactioncutoffdate" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="{f51a7bb5-ee3d-4226-a8cd-0b1718766f2a}" name="InvoiceSection" columns="1" showlabel="false" showbar="false" IsUserDefined="0" locklevel="0" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Invoice" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{d37207b5-b935-d42e-ad9a-542b1509de08}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Invoice Run Date" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_invoicerundate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="msdyn_invoicerundate" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="{7b8e9b7a-cde1-449b-8f2a-501db68754e3}" name="tab_1_column_3_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{a5fcc7ec-52b5-47ee-9689-42034ff2f3ee}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="1">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+      </DisplayConditions>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Project Quick Create" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Shows the quote line invoice schedule quick create form for Project Service." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

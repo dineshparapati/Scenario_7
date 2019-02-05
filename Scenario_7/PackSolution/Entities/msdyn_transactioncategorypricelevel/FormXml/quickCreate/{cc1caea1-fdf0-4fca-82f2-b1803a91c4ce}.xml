@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{cc1caea1-fdf0-4fca-82f2-b1803a91c4ce}</formid>
+    <IntroducedVersion>1.0.0.1</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form maxWidth="1900">
+      <tabs>
+        <tab id="{3cb408fd-c2cc-4ff3-a0fa-2b1ab04a7695}" name="tab_1" showlabel="false">
+          <labels>
+            <label description="Tab" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="33%">
+              <sections>
+                <section id="{b437e74c-9769-483a-ac2d-4f5d9b423e75}" name="tab_1_column_1_section_1" columns="1" labelwidth="125" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{c831a389-a1ee-e167-3548-aa6b6a7d7076}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Transaction Category" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_transactioncategory" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msdyn_transactioncategory" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6edee8e9-3050-075e-a0da-dac5de828c00}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Price Calculation" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_pricecalculation" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="msdyn_pricecalculation" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="{92d9b9ab-5745-4ad9-972d-3740226e8202}" name="tab_1_column_2_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{3c0a9289-9726-2487-2d33-09949e7718c5}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Unit Schedule" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_unitschedule" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msdyn_unitschedule" disabled="false">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{2D013A3A-07CD-4163-8208-8E8E605492F4}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a9b6ac13-681a-e726-ccac-0670e0a2bc0b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Unit" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_unit" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msdyn_unit" disabled="false">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>true</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{4DA6F46B-3649-4D0E-B5D2-CCB590F4227D}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="{fd843410-b597-47ef-a54c-8295b705cb81}" name="tab_1_column_3_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{7a38b16d-b23c-60b1-282b-5ca7b7d977da}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Percent" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_percent" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="msdyn_percent" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{42de4750-274d-7ac3-e330-a6ba455aae31}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Price" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_price" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msdyn_price" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <formLibraries>
+        <Library name="msdyn_/Libraries/SDK.Rest/SDK.REST.js" libraryUniqueId="{23d64680-ad10-3d4d-26ac-6a6c4cc899a2}" />
+        <Library name="msdyn_/Libraries/require/require.js" libraryUniqueId="{d10d2a16-7a3b-583a-17b3-7d2b9ee29ce1}" />
+        <Library name="msdyn_/CategoryDefaulting/CategoryDefaultingForForm.js" libraryUniqueId="{2b766454-d083-4f67-bdfa-dcc5584ecb62}" />
+      </formLibraries>
+      <events>
+        <event name="onload" application="false" active="false">
+          <Handlers>
+            <Handler functionName="msdyn.CategoryDefaulting.initializeDefaultingUtils" libraryName="msdyn_/CategoryDefaulting/CategoryDefaultingForForm.js" handlerUniqueId="{5636c97a-c968-e48e-8195-61e0191d1e05}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+        </event>
+        <event name="onchange" application="false" active="false" attribute="msdyn_transactioncategory">
+          <Handlers>
+            <Handler functionName="msdyn.CategoryDefaulting.initializeDefaultUnitGroupAndUnit" libraryName="msdyn_/CategoryDefaulting/CategoryDefaultingForForm.js" handlerUniqueId="{a9486740-7b79-e07d-a2b1-10a4603c41cc}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+        </event>
+        <event name="onchange" application="false" active="false" attribute="msdyn_unitschedule">
+          <Handlers>
+            <Handler functionName="msdyn.CategoryDefaulting.resetUnit" libraryName="msdyn_/CategoryDefaulting/CategoryDefaultingForForm.js" handlerUniqueId="{a9486740-7b79-e07d-a2b1-10a4603c41cc}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+        </event>
+      </events>
+      <DisplayConditions Order="1">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+      </DisplayConditions>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Quick Create" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

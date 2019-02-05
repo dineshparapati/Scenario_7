@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{cbec1a7a-0301-4dbc-b715-0ea8e37b46bd}</formid>
+    <IntroducedVersion>1.0.0.1</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form maxWidth="1900">
+      <tabs>
+        <tab id="{66b96f47-9f9a-40e1-80a6-ef5987131f7f}" name="Time Entry Quick Create Form" showlabel="false" locklevel="0" expanded="true">
+          <labels>
+            <label description="Time Entry Quick Create Form" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section id="{0c8c25cf-c13d-4534-a9e2-c05cee4d336e}" name="tab_1_column_1_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{25bc7150-d854-b913-dd97-2765982daaa1}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Date" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_date" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="msdyn_date" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8941a489-87ac-0114-9626-59621bc3bd84}" showlabel="true" locklevel="1">
+                        <labels>
+                          <label description="Duration" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_duration" classid="{AA987274-CE4E-4271-A803-66164311A958}" datafieldname="msdyn_duration" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b94746b7-03c5-92ec-61b2-9bc4eb72682a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Type" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_type" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="msdyn_type" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e49944dd-7648-0b20-b358-16166b4bb346}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Project" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_project" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msdyn_project" disabled="false">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{57939B7C-CDB3-E511-80E4-00155DB8D81D}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                            <AvailableViewIds>{BFCA68EE-CAB3-E511-80E4-00155DB8D81D},{57939B7C-CDB3-E511-80E4-00155DB8D81D}</AvailableViewIds>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{763c3c92-bdd8-4c3d-6334-89d6d94781c4}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Project Task" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_projecttask" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msdyn_projecttask" disabled="false">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{4792D21C-D6B4-E511-80E4-00155DB8D81D}</DefaultViewId>
+                            <DependentAttributeType>msdyn_project</DependentAttributeType>
+                            <AllowFilterOff>false</AllowFilterOff>
+                            <AvailableViewIds>{41AD6900-D1B4-E511-80E4-00155DB8D81D},{4792D21C-D6B4-E511-80E4-00155DB8D81D}</AvailableViewIds>
+                            <FilterRelationshipName>msdyn_msdyn_project_msdyn_projecttask_project</FilterRelationshipName>
+                            <DependentAttributeName>msdyn_timeentry.msdyn_project</DependentAttributeName>
+                            <IsInlineNewEnabled>false</IsInlineNewEnabled>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{18799c20-b074-846b-a3b2-1b43bdb67be5}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Role" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_resourcecategory" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msdyn_resourcecategory" disabled="false">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{6F805D16-CACD-E511-80F2-00155DE28206}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d0c93193-6714-994d-8dcc-81353cca1856}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_description" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msdyn_description" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{93744d47-d99b-be1d-b607-c792c6c26892}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="External Comments" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_externaldescription" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msdyn_externaldescription" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="1">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+      </DisplayConditions>
+      <formLibraries>
+        <Library name="msdyn_/Libraries/require/require.js" libraryUniqueId="{16728b02-5157-3838-800e-61cb2a8e1b57}" />
+        <Library name="msdyn_/Time/Moca/Scripts/TimeEntryForm.js" libraryUniqueId="{85b77e9d-0851-27b4-03d1-87d0ab077cbe}" />
+      </formLibraries>
+      <events>
+        <event name="onload" application="false" active="false">
+          <dependencies>
+            <dependency id="msdyn_duration" />
+          </dependencies>
+          <Handlers>
+            <Handler functionName="timeEntry_OnLoad" libraryName="msdyn_/Time/Moca/Scripts/TimeEntryForm.js" handlerUniqueId="{c21eb70d-b673-0534-eb3c-c972c2033c6c}" enabled="true" parameters="" passExecutionContext="true" />
+            <Handler functionName="setDefaultDurationOnCreate" libraryName="msdyn_/Time/Moca/Scripts/TimeEntryForm.js" handlerUniqueId="{2121396e-9032-8da3-393a-ccd8725ca29d}" enabled="true" parameters="60" passExecutionContext="true" />
+          </Handlers>
+        </event>
+        <event name="onchange" application="false" active="false" attribute="msdyn_projecttask">
+          <Handlers>
+            <Handler functionName="projectTask_OnChange" libraryName="msdyn_/Time/Moca/Scripts/TimeEntryForm.js" handlerUniqueId="{57c68e3b-b73b-7822-80cb-1b8e3ce8631d}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+        </event>
+        <event name="onchange" application="false" active="false" attribute="msdyn_project">
+          <Handlers>
+            <Handler functionName="project_OnChange" libraryName="msdyn_/Time/Moca/Scripts/TimeEntryForm.js" handlerUniqueId="{5ece112e-2a69-601c-2037-a8267db1559d}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+        </event>
+      </events>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Create Time Entry" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Quick create form for Time Entry, only available on tablets" languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

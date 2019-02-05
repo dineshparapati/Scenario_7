@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{acc8be27-9c3e-44bc-a659-80412e724b3a}</formid>
+    <IntroducedVersion>6.1.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form maxWidth="1900">
+      <tabs>
+        <tab id="{e2206197-accb-4df8-b0dd-9eb2496582d0}" name="tab_1" showlabel="false" locklevel="0" expanded="true">
+          <labels>
+            <label description="Quote Booking Service Item" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="33%">
+              <sections>
+                <section id="{83f2d3d1-fb2f-46ad-85bc-d07cf4ae0f57}" name="tab_1_column_1_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{302db9a8-d023-27ed-b509-bb0c4719363e}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Quote Booking Setup" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_quotebookingsetup" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msdyn_quotebookingsetup" disabled="false" uniqueid="{0600c4ee-8ce6-4085-0386-ce67850ab964}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{2B8A0312-7AAE-4C4F-97AA-D5C9F0398BC4}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{332a8ea6-4157-5840-7d60-e143255be659}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Service" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_service" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msdyn_service" disabled="false" uniqueid="{7e533c55-0a22-6329-b494-b84d6db11687}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{65CD6AF4-FF0F-E311-974A-00155DA8FA1B}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2336b19a-4033-1196-cda1-0e60a5743952}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Unit" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_unit" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msdyn_unit" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{dc62a646-dbb4-4236-b660-04dd27ab7d3e}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Duration" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_duration" classid="{AA987274-CE4E-4271-A803-66164311A958}" datafieldname="msdyn_duration" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="{278ed744-afdf-4207-8509-c8f0a6ffef7d}" name="tab_1_column_2_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0" locklevel="0" labelwidth="150" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{c1d09550-0178-d27a-a37e-e46d0333e245}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Unit Price" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_unitamount" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msdyn_unitamount" disabled="false" uniqueid="{ae405ec2-bdae-ea35-dda2-8a6ea7361953}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{202c55e7-924a-b1d6-0810-15c5c8be9c45}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Unit Cost" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_unitcostamount" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msdyn_unitcostamount" disabled="false" uniqueid="{01a18eb8-cde7-19ba-640b-46399cadd8c1}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{46217333-0c80-c03c-2569-aa40bab34691}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Minimum Charge Amount" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_minimumchargeamount" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msdyn_minimumchargeamount" disabled="false" uniqueid="{47b85a34-d01c-cdce-04da-c2bd38ad0d58}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ac704345-1858-61b9-69d9-ba762a32b1a9}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Minimum Charge Duration" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_minimumchargeduration" classid="{AA987274-CE4E-4271-A803-66164311A958}" datafieldname="msdyn_minimumchargeduration" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="{c34d0413-baf8-4af4-b970-9be6422fa8f0}" name="tab_1_column_3_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{835a15c4-eea1-2214-19a4-c07b182a6a12}" showlabel="true" locklevel="0" visible="false">
+                        <labels>
+                          <label description="Estimated Sales Amount" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_estimatedsalesamount" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msdyn_estimatedsalesamount" disabled="false" uniqueid="{dc679a41-0d1a-3b82-33e8-99c46b97836e}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c8c41105-b81b-e16b-72e6-4ce6c661e183}" showlabel="true" locklevel="0" visible="false">
+                        <labels>
+                          <label description="Estimated Cost Amount" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_estimatedcostamount" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msdyn_estimatedcostamount" disabled="false" uniqueid="{bc51c196-dca7-1235-b157-0b28e516ae89}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <controlDescriptions />
+      <formLibraries>
+        <Library name="msdyn_/Utils/head.js" libraryUniqueId="{ded0a6bc-1ad9-57a5-c33e-451ad45b10c3}" />
+        <Library name="msdyn_/QuoteBookingService/QuoteBookingService.Library.js" libraryUniqueId="{08bd8c1a-95d5-c8ba-da9d-cbac461c6d38}" />
+      </formLibraries>
+      <events>
+        <event name="onload" application="false" active="false">
+          <Handlers>
+            <Handler functionName="FS.QuoteBookingService.Library.Load" libraryName="msdyn_/QuoteBookingService/QuoteBookingService.Library.js" handlerUniqueId="{91253d25-b7cb-9c85-7d8d-b3c4d2c8eda2}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+        </event>
+      </events>
+      <DisplayConditions Order="1">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

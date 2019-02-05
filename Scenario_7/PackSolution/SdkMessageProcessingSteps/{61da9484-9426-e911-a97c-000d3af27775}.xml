@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SdkMessageProcessingStep Name="Runs geofencing plugin when the coordinates of the tracking point record are updated" SdkMessageProcessingStepId="{61da9484-9426-e911-a97c-000d3af27775}">
+  <PluginTypeName>Microsoft.Dynamics.Realm.Plugins.SimpleGeoFenceEventPlugin, Microsoft.Dynamics.Realm.Plugins, Version=1.0.0.225, Culture=neutral, PublicKeyToken=31bf3856ad364e35</PluginTypeName>
+  <PluginTypeId>63971350-dac6-4f17-b087-ea1e74287050</PluginTypeId>
+  <PrimaryEntity>bookableresource</PrimaryEntity>
+  <AsyncAutoDelete>0</AsyncAutoDelete>
+  <Description>Runs geofencing plugin when the coordinates of the tracking point record are updated</Description>
+  <FilteringAttributes>msdyn_latitude,msdyn_longitude</FilteringAttributes>
+  <InvocationSource>1</InvocationSource>
+  <Mode>0</Mode>
+  <Rank>1</Rank>
+  <SdkMessageId>{20bebb1b-ea3e-db11-86a7-000a3a5473e8}</SdkMessageId>
+  <EventHandlerTypeCode>4602</EventHandlerTypeCode>
+  <Stage>40</Stage>
+  <IsCustomizable>1</IsCustomizable>
+  <IsHidden>0</IsHidden>
+  <SupportedDeployment>0</SupportedDeployment>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <SdkMessageProcessingStepImages />
+</SdkMessageProcessingStep>

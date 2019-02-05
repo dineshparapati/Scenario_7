@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModuleSiteMap>
+  <SiteMapUniqueName>msdyn_TimeExpense</SiteMapUniqueName>
+  <SiteMap IntroducedVersion="9.0.0.0">
+    <Area Id="msdyn_TimExpense" ResourceId="SitemapDesigner.NewArea" DescriptionResourceId="SitemapDesigner.NewArea" VectorIcon="$webresource:/msdyn_/SitemapIcons/SVG/ProjectService.svg" ShowGroups="true" IntroducedVersion="9.0.0.0">
+      <Titles>
+        <Title LCID="1033" Title="Time and Expense" />
+        <Title LCID="1025" Title="الوقت والمصروفات" />
+        <Title LCID="1026" Title="Час и разход" />
+        <Title LCID="1027" Title="Temps i despesa" />
+        <Title LCID="1029" Title="Čas a výdaje" />
+        <Title LCID="1030" Title="Tid og udgift" />
+        <Title LCID="1031" Title="Zeit und Ausgaben" />
+        <Title LCID="1032" Title="Χρόνος και έξοδα" />
+        <Title LCID="3082" Title="Tiempo y gasto" />
+        <Title LCID="1061" Title="Aeg ja kulu" />
+        <Title LCID="1069" Title="Denbora eta gastua" />
+        <Title LCID="1035" Title="Aika ja kulu" />
+        <Title LCID="1036" Title="Temps et dépenses" />
+        <Title LCID="1110" Title="Hora e gasto" />
+        <Title LCID="1037" Title="זמן והוצאה" />
+        <Title LCID="1081" Title="समय और व्यय" />
+        <Title LCID="1050" Title="Vrijeme i trošak" />
+        <Title LCID="1038" Title="Idő és költség" />
+        <Title LCID="1057" Title="Waktu dan Pengeluaran" />
+        <Title LCID="1040" Title="Ore e spesa" />
+        <Title LCID="1041" Title="時間と経費" />
+        <Title LCID="1087" Title="Уақыт және шығыс" />
+        <Title LCID="1042" Title="시간 및 경비" />
+        <Title LCID="1063" Title="Laikas ir išlaidos" />
+        <Title LCID="1062" Title="Laiks un izdevumi" />
+        <Title LCID="1086" Title="Masa dan Perbelanjaan" />
+        <Title LCID="1044" Title="Tid og utgift" />
+        <Title LCID="1043" Title="Tijd en onkosten" />
+        <Title LCID="1045" Title="Czas i wydatek" />
+        <Title LCID="1046" Title="Tempo e Despesa" />
+        <Title LCID="2070" Title="Tempo e Despesa" />
+        <Title LCID="1048" Title="Timp și cheltuială" />
+        <Title LCID="1049" Title="Время и расходы" />
+        <Title LCID="1051" Title="Čas a výdavky" />
+        <Title LCID="1060" Title="Čas in strošek" />
+        <Title LCID="3098" Title="Време и трошак" />
+        <Title LCID="2074" Title="Vreme i trošak" />
+        <Title LCID="1053" Title="Tid och utgift" />
+        <Title LCID="1054" Title="เวลาและค่าใช้จ่าย" />
+        <Title LCID="1055" Title="Zaman ve Gider" />
+        <Title LCID="1058" Title="Час і витрати" />
+        <Title LCID="1066" Title="Thời gian và Chi phí" />
+        <Title LCID="2052" Title="时间和支出" />
+        <Title LCID="3076" Title="時間和費用" />
+        <Title LCID="1028" Title="時間和費用" />
+      </Titles>
+      <Group Id="msdyn_Group" ResourceId="SitemapDesigner.NewGroup" DescriptionResourceId="SitemapDesigner.NewGroup" IntroducedVersion="9.0.0.0" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Time And Expense" />
+          <Title LCID="1025" Title="الوقت والمصروفات" />
+          <Title LCID="1026" Title="Час и разход" />
+          <Title LCID="1027" Title="Temps i despesa" />
+          <Title LCID="1029" Title="Čas a výdaje" />
+          <Title LCID="1030" Title="Tid og udgift" />
+          <Title LCID="1031" Title="Zeit und Ausgaben" />
+          <Title LCID="1032" Title="Χρόνος και έξοδα" />
+          <Title LCID="3082" Title="Tiempo y gasto" />
+          <Title LCID="1061" Title="Aeg ja kulu" />
+          <Title LCID="1069" Title="Denbora eta gastua" />
+          <Title LCID="1035" Title="Aika ja kulu" />
+          <Title LCID="1036" Title="Temps et dépenses" />
+          <Title LCID="1110" Title="Hora e gasto" />
+          <Title LCID="1037" Title="זמן והוצאה" />
+          <Title LCID="1081" Title="समय और व्यय" />
+          <Title LCID="1050" Title="Vrijeme i trošak" />
+          <Title LCID="1038" Title="Idő és költség" />
+          <Title LCID="1057" Title="Waktu dan Pengeluaran" />
+          <Title LCID="1040" Title="Ore e spesa" />
+          <Title LCID="1041" Title="時間と経費" />
+          <Title LCID="1087" Title="Уақыт және шығыс" />
+          <Title LCID="1042" Title="시간 및 경비" />
+          <Title LCID="1063" Title="Laikas ir išlaidos" />
+          <Title LCID="1062" Title="Laiks un izdevumi" />
+          <Title LCID="1086" Title="Masa Dan Perbelanjaan" />
+          <Title LCID="1044" Title="Tid og utgift" />
+          <Title LCID="1043" Title="Tijd en onkosten" />
+          <Title LCID="1045" Title="Czas i wydatek" />
+          <Title LCID="1046" Title="Tempo e Despesa" />
+          <Title LCID="2070" Title="Tempo e Despesa" />
+          <Title LCID="1048" Title="Timp și cheltuială" />
+          <Title LCID="1049" Title="Время и расходы" />
+          <Title LCID="1051" Title="Čas a výdavky" />
+          <Title LCID="1060" Title="Čas in strošek" />
+          <Title LCID="3098" Title="Време и трошак" />
+          <Title LCID="2074" Title="Vreme i trošak" />
+          <Title LCID="1053" Title="Tid och utgift" />
+          <Title LCID="1054" Title="เวลาและค่าใช้จ่าย" />
+          <Title LCID="1055" Title="Zaman Ve Gider" />
+          <Title LCID="1058" Title="Час і витрати" />
+          <Title LCID="1066" Title="Thời gian và Chi phí" />
+          <Title LCID="2052" Title="时间和支出" />
+          <Title LCID="3076" Title="時間和費用" />
+          <Title LCID="1028" Title="時間和費用" />
+        </Titles>
+        <SubArea Id="msdyn_TimeEntrySubArea" VectorIcon="$webresource:msdyn_/SitemapIcons/SVG/TimeEntries.svg" Entity="msdyn_timeentry" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="msdyn_ExpensesSubArea" VectorIcon="$webresource:msdyn_/SitemapIcons/SVG/Expense.svg" Entity="msdyn_expense" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+      </Group>
+    </Area>
+  </SiteMap>
+  <LocalizedNames>
+    <LocalizedName description="Project Resource Hub" languagecode="1033" />
+  </LocalizedNames>
+</AppModuleSiteMap>

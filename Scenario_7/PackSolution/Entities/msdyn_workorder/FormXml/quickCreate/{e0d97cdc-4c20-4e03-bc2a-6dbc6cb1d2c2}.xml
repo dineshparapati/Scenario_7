@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{e0d97cdc-4c20-4e03-bc2a-6dbc6cb1d2c2}</formid>
+    <IntroducedVersion>3.2.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form maxWidth="1900">
+      <tabs>
+        <tab id="{afce4319-ecf7-4a68-ad9e-4aad745704d0}" name="tab_1" showlabel="false">
+          <labels>
+            <label description="Tab" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="33%">
+              <sections>
+                <section id="{aab723d1-623e-4d29-9fa5-c82034e6177d}" name="tab_1_column_1_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" locklevel="0" labelwidth="130" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="CUSTOMER INFORMATION" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{556ab731-1769-78de-e765-25e0eec875e0}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Work Order Summary" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_workordersummary" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="msdyn_workordersummary" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{11c33c97-687b-5965-3dec-640ea1ab5d63}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Service Account" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_serviceaccount" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msdyn_serviceaccount" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5c33016b-8c2a-ac66-74e7-b8dc9c794451}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Billing Account" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_billingaccount" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msdyn_billingaccount" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2ea29d80-ee09-8473-6b1b-d0605cd17b49}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Reported By Contact" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_reportedbycontact" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msdyn_reportedbycontact" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7270a5cb-14eb-2046-c418-e8d17c82c069}" showlabel="true" locklevel="0" visible="false">
+                        <labels>
+                          <label description="Opportunity" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_opportunityid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msdyn_opportunityid" disabled="false" uniqueid="{48dc5b1c-3038-4730-164c-2c7e6402ea6b}"></control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="{8e34fbe3-aeb9-4722-a33f-04b93cc510ba}" name="tab_1_column_2_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" locklevel="0" labelwidth="220" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="INCIDENT INFORMATION" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{6d23c732-d166-6364-b8e1-23ec3867107c}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Primary Incident Type" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_primaryincidenttype" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msdyn_primaryincidenttype" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{39c01c57-5894-7858-b54b-6e81b89e5148}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Primary Incident Description" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_primaryincidentdescription" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="msdyn_primaryincidentdescription" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6a77c130-4407-c1e0-8bec-24311c981924}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Primary Incident Customer Asset" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_customerasset" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msdyn_customerasset" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c89bed8a-3990-081b-ca41-b2834cc394d7}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Primary Incident Estimated Duration" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_primaryincidentestimatedduration" classid="{AA987274-CE4E-4271-A803-66164311A958}" datafieldname="msdyn_primaryincidentestimatedduration" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d345a949-2a07-513c-595d-504409e6d4b3}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Work Order Type" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_workordertype" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msdyn_workordertype" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{566aed54-206c-1d22-68cd-e223491e9757}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="IoT Alert" languagecode="1033" />
+                        </labels>
+                        <control disabled="false" id="msdyn_iotalert" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msdyn_iotalert" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c551d050-ae07-0b83-d3e4-c37b8ac97972}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Case" languagecode="1033" />
+                        </labels>
+                        <control disabled="false" id="msdyn_servicerequest" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msdyn_servicerequest" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="{75a280ba-d601-47a0-85e8-e8fd9ae43ce8}" name="tab_1_column_3_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" locklevel="0" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="DETAILS" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{0ce48407-640e-8411-241a-888346699be7}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Priority" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_priority" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msdyn_priority" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{65be8b63-b931-61c0-b761-c288554c4732}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="System Status" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_systemstatus" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="msdyn_systemstatus" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e51bab75-61a3-c799-648d-a9e611a629b0}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Substatus" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_substatus" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msdyn_substatus" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4b7767c2-c606-826a-63aa-a3aaaab05a6b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Service Territory" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_serviceterritory" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msdyn_serviceterritory" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{36abee44-5115-ea77-117e-13bec77b8885}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Price List" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_pricelist" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msdyn_pricelist" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <formLibraries>
+        <Library name="msdyn_/SDK/SOAP/Sdk_Soap_min.js" libraryUniqueId="{2f50ebd5-0d47-406a-bdfe-2776c1043606}" />
+        <Library name="msdyn_/Utils/json2.js" libraryUniqueId="{2602fed4-a162-4e95-a7c1-e465d0e3ff13}" />
+        <Library name="msdyn_/Utils/jquery.min.js" libraryUniqueId="{25dc3229-005b-43a3-9b01-191e3f914b65}" />
+        <Library name="msdyn_/Utils/sdk.jquery.js" libraryUniqueId="{2ac05260-e441-4592-b86e-093561743158}" />
+        <Library name="msdyn_/Utils/sdk.fetchutil.js" libraryUniqueId="{2e62cde4-4d13-4b7b-8fed-dc62ba8c6649}" />
+        <Library name="msdyn_/GeoCodeUtils/GeoCodeUtils.js" libraryUniqueId="{23c876c9-19de-42c3-ab7b-f616d4c26c2a}" />
+        <Library name="msdyn_/GeoCodeUtils/GeoCodeForm.js" libraryUniqueId="{249a79fc-898e-4cc6-9076-fbb58e90970d}" />
+        <Library name="msdyn_/Utils/jquery.ui.js" libraryUniqueId="{29d28f22-6294-48f5-8933-a54ec7579bdd}" />
+        <Library name="msdyn_/Action/FieldServiceSystemAction/Sdk_msdyn_FieldServiceSystemAction_min.js" libraryUniqueId="{2209f045-0d93-4655-b25c-113cfdb7732d}" />
+        <Library name="msdyn_/Utils/EntityDictionary.js" libraryUniqueId="{2c8aec3b-79e9-4196-b32d-2d70044e591b}" />
+        <Library name="msdyn_/LocalizationLibrary/Localization.Library.js" libraryUniqueId="{16bfd9fe-330e-44a8-9ad0-febe8b78d7cd}" />
+        <Library name="msdyn_/Utils/FieldServiceTrial.js" libraryUniqueId="{28daeb2a-4593-8c82-1b0c-83be5e6acc94}" />
+        <Library name="msdyn_/WorkOrder/WorkOrder.Library.js" libraryUniqueId="{d9dd65d2-da7a-ee87-2302-260e57506881}" />
+        <Library name="msdyn_/CFS/WorkOrder/WorkOrderForm.js" libraryUniqueId="{8d49890c-4cc1-be18-5734-72ca2b56a22a}" />
+      </formLibraries>
+      <events>
+        <event name="onload" application="false" active="false">
+          <Handlers>
+            <Handler handlerUniqueId="{d615ee70-736e-63b8-dd48-20086cb8d90d}" functionName="WorkOrders.Library.Load" libraryName="msdyn_/WorkOrder/WorkOrder.Library.js" enabled="true" passExecutionContext="true" parameters="" />
+            <Handler handlerUniqueId="{4eac48dc-bbd3-2e13-1c47-384c5409e4ca}" functionName="msdyn.workOrderForm.onLoad" libraryName="msdyn_/CFS/WorkOrder/WorkOrderForm.js" enabled="true" passExecutionContext="false" parameters="" />
+          </Handlers>
+        </event>
+      </events>
+      <DisplayConditions Order="1">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Quick Create Work Order" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

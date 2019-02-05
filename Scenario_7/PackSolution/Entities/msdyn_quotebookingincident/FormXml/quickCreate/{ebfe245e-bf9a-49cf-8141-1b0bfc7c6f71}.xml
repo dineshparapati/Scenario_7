@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{ebfe245e-bf9a-49cf-8141-1b0bfc7c6f71}</formid>
+    <IntroducedVersion>6.1.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form maxWidth="1900">
+      <tabs>
+        <tab id="{e16d8c01-c593-41fa-92f9-032cc43ebce8}" name="QuoteBookingIncidentTab" showlabel="false" locklevel="0" expanded="true">
+          <labels>
+            <label description="Quote Booking Incident" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="33%">
+              <sections>
+                <section id="{dc8f9f48-2182-42b2-800f-ce9138883b66}" name="tab_1_column_1_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{ccc24c19-c2ab-748e-26b7-29b3b35bccdc}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Incident Type" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_incidenttype" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msdyn_incidenttype" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a5677752-b90a-2505-4d2a-1297a99ecca5}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_description" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="msdyn_description" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a665cb13-be5a-a8d5-ee29-2067e78c710d}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msdyn_name" disabled="false" uniqueid="{cda8b986-bec8-7506-8c74-84cd5e5425bd}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="{ad8ade85-be6c-46e7-80ab-8600e46421e1}" name="tab_1_column_2_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{9b71bbda-7c27-5115-aaae-40002101d602}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Estimated Duration" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_estimatedduration" classid="{AA987274-CE4E-4271-A803-66164311A958}" datafieldname="msdyn_estimatedduration" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0e710c38-2814-e4a4-9213-9b07edaab25e}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Customer Asset" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_customerasset" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msdyn_customerasset" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="{d447985e-a678-44ed-8a9d-952ae73b9a05}" name="tab_1_column_3_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{37c0921a-5ebc-ea52-e78b-719ab2b68981}" showlabel="true" locklevel="0" visible="false">
+                        <labels>
+                          <label description="Quote Booking Setup" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_quotebookingsetup" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msdyn_quotebookingsetup" disabled="false" uniqueid="{c205a3b8-318b-a99c-d172-b422252c6e72}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{2B8A0312-7AAE-4C4F-97AA-D5C9F0398BC4}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <controlDescriptions />
+      <formLibraries>
+        <Library name="msdyn_/SDK/SOAP/Sdk_Soap_min.js" libraryUniqueId="{ab30722c-fd6c-11e7-8be5-0ed5f89f718b}" />
+        <Library name="msdyn_/Action/FieldServiceSystemAction/Sdk_msdyn_FieldServiceSystemAction_min.js" libraryUniqueId="{ab307402-fd6c-11e7-8be5-0ed5f89f718b}" />
+        <Library name="msdyn_/Utils/jquery.min.js" libraryUniqueId="{ab307542-fd6c-11e7-8be5-0ed5f89f718b}" />
+        <Library name="msdyn_/Utils/sdk.jquery.js" libraryUniqueId="{ab307664-fd6c-11e7-8be5-0ed5f89f718b}" />
+        <Library name="msdyn_/QuoteBookingIncident/FieldService.QuoteBookingIncident.js" libraryUniqueId="{3eae85a4-36cd-7675-93b8-82abb698e6ba}" />
+      </formLibraries>
+      <events>
+        <event name="onload" application="false" active="false">
+          <Handlers>
+            <Handler functionName="FieldService.QuoteBookingIncident.Library.onLoad" libraryName="msdyn_/QuoteBookingIncident/FieldService.QuoteBookingIncident.js" handlerUniqueId="{5ad0c989-159a-e4a3-b38a-a0d7c7e9c22b}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+        </event>
+      </events>
+      <DisplayConditions Order="1">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

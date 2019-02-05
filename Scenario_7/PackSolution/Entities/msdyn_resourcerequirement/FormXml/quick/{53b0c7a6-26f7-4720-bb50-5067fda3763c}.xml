@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{53b0c7a6-26f7-4720-bb50-5067fda3763c}</formid>
+    <IntroducedVersion>1.0.1.1</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab id="{afdf4607-7e9c-4119-9b48-349111c6c1fa}" name="tab_1" showlabel="false">
+          <labels>
+            <label description="Tab" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section id="{b6d8b9bc-859f-4686-8100-b342e0d98009}" name="tab_1_column_1_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{833491be-3ae4-cdca-5075-641c26537453}" showlabel="false" colspan="1" auto="false" rowspan="7">
+                        <labels>
+                          <label description="Proposed Resources" languagecode="1033" />
+                        </labels>
+                        <control id="ProposedBookings" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <ViewId>{28A0AA56-77D6-E511-80F1-00155DBC5808}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>msdyn_resourcerequirement_bookableresourcebookingheader_ResourceRequirement</RelationshipName>
+                            <TargetEntityType>bookableresourcebookingheader</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{D225F82A-6B0A-4CB7-AB42-D0F85FD803DA},{28A0AA56-77D6-E511-80F1-00155DBC5808}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>5</RecordsPerPage>
+                            <RelationshipRoleOrdinal>1</RelationshipRoleOrdinal>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="6">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+      </DisplayConditions>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Bookings" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

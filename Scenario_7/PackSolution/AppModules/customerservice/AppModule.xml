@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModule>
+  <UniqueName>customerservice</UniqueName>
+  <IntroducedVersion>8.2.0.0</IntroducedVersion>
+  <WebResourceId>a37cbc11-4a81-e611-80d3-00155d42a122</WebResourceId>
+  <FormFactor>1</FormFactor>
+  <ClientType>2</ClientType>
+  <AppModuleComponents>
+    <AppModuleComponent type="60" id="{2e3d0841-fa6d-df11-986c-00155d2e3002}" />
+    <AppModuleComponent type="60" id="{15e19ce1-819e-4789-a5aa-ea4fe1741568}" />
+    <AppModuleComponent type="60" id="{7acefc83-9776-440f-a476-53b859948315}" />
+    <AppModuleComponent type="1" schemaName="phonetocaseprocess" />
+    <AppModuleComponent type="1" schemaName="contract" />
+    <AppModuleComponent type="60" id="{65e050d3-8b71-4b53-acb5-bb9af83bf384}" />
+    <AppModuleComponent type="29" id="{0ffbcde4-61c1-4355-aa89-aa1d7b2b8792}" />
+    <AppModuleComponent type="62" schemaName="customerservice" />
+    <AppModuleComponent type="1" schemaName="contact" />
+    <AppModuleComponent type="1" schemaName="incident" />
+    <AppModuleComponent type="1" schemaName="kbarticle" />
+    <AppModuleComponent type="1" schemaName="activitypointer" />
+    <AppModuleComponent type="1" schemaName="account" />
+    <AppModuleComponent type="60" id="{063e7659-05d9-4030-960d-10fe269a5a8b}" />
+    <AppModuleComponent type="60" id="{6e00802f-8c73-df11-986c-00155d2e3002}" />
+    <AppModuleComponent type="60" id="{acb40ffe-a1e0-47d0-a472-799911009df6}" />
+    <AppModuleComponent type="60" id="{4e76815a-1f63-df11-ae90-00155d2e3002}" />
+    <AppModuleComponent type="1" schemaName="socialprofile" />
+    <AppModuleComponent type="1" schemaName="service" />
+    <AppModuleComponent type="1" schemaName="goalrollupquery" />
+    <AppModuleComponent type="1" schemaName="report" />
+    <AppModuleComponent type="1" schemaName="queueitem" />
+    <AppModuleComponent type="1" schemaName="queue" />
+    <AppModuleComponent type="1" schemaName="product" />
+    <AppModuleComponent type="1" schemaName="knowledgebaserecord" />
+    <AppModuleComponent type="1" schemaName="knowledgearticle" />
+    <AppModuleComponent type="1" schemaName="metric" />
+    <AppModuleComponent type="1" schemaName="goal" />
+    <AppModuleComponent type="1" schemaName="entitlement" />
+  </AppModuleComponents>
+  <AppModuleRoleMaps>
+    <Role id="{627090ff-40a3-4053-8790-584edc5be201}" />
+    <Role id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+    <Role id="{3dac4d9e-568c-e611-80d4-00155d42a122}" />
+  </AppModuleRoleMaps>
+  <LocalizedNames>
+    <LocalizedName description="Customer Service" languagecode="1033" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description description="Empower agents to manage cases and allow service managers to set up service management" languagecode="1033" />
+  </Descriptions>
+</AppModule>

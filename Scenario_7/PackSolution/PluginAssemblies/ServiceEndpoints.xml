@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ServiceEndpoints>
+  <ServiceEndpoint ServiceEndpointId="{fadc3b14-a91b-e611-8103-00155dbd6a1d}" Name="IoT Message" unmodified="1" />
+</ServiceEndpoints>

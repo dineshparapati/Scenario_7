@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity>
+  <Name LocalizedName="Business Closure" OriginalName="Business Closure">msdyn_businessclosure</Name>
+  <FormXml />
+  <RibbonDiffXml />
+</Entity>

@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{d4467fbe-1b0b-4042-845a-68b1ac199115}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form maxWidth="1900">
+      <tabs>
+        <tab id="{85622e14-7ecd-4600-9970-a940f3599b78}" name="tab_1" showlabel="false">
+          <labels>
+            <label description="Tab" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="33%">
+              <sections>
+                <section id="{ad4f71e6-f499-4147-8f79-49b0573f1da3}" name="GeneralSection" columns="1" showlabel="false" showbar="false" IsUserDefined="0" locklevel="0" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{665118b6-3eba-931d-62b8-081173a02d98}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Milestone Name" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msdyn_name" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7acc8280-acec-6718-06aa-8a3d68d091a9}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Project Task" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_projecttask" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msdyn_projecttask" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e5d95c22-0bb2-07a3-025c-0da3c4a0392e}" showlabel="true" locklevel="1" visible="false">
+                        <labels>
+                          <label description="Contract Line" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_contractlineid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msdyn_contractlineid" disabled="false" uniqueid="{7b3aca89-5aa7-d7a1-1811-a7087472d9b0}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{51596c00-da75-018e-d9e1-244dc1d9a310}" showlabel="true" locklevel="1" visible="false">
+                        <labels>
+                          <label description="Contract" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_contract" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msdyn_contract" disabled="false" uniqueid="{5a5ed849-3b6a-8239-6e00-02c183401697}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{92a160a5-c84f-48a9-934f-0fd0544229fb}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="{dfdd69af-72ed-4680-81ec-4a0daca1ee06}" name="InvoiceSection" columns="1" showlabel="false" showbar="false" IsUserDefined="0" locklevel="0" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Invoice" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{778b9811-e129-280d-8798-bd42ebe92aa6}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Milestone Date" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_invoicedate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="msdyn_invoicedate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{91dc0313-bc25-255b-e200-17eb82d7e673}" showlabel="true" locklevel="1">
+                        <labels>
+                          <label description="Invoice Status" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_invoicestatus" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="msdyn_invoicestatus" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="{e5d9aec3-196d-45d6-9d53-a9aa97cbdddc}" name="AmountSection" columns="1" showlabel="false" showbar="false" IsUserDefined="0" locklevel="0" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Amounts" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{bd900c24-70dd-2925-3541-761b2cb6e73a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Line Amount" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_amount" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msdyn_amount" disabled="false" uniqueid="{47e9d038-d35d-2006-7d98-5d2c6c56a828}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5516d24b-49bc-6ce6-b792-a2c3177d28cc}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Tax" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_tax" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msdyn_tax" disabled="false" uniqueid="{175960e5-c44d-9649-51ee-17c63521edb8}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{24d2841d-d6e3-21c8-5d64-5acbb9729d88}" showlabel="true" locklevel="0" visible="false">
+                        <labels>
+                          <label description="Currency" languagecode="1033" />
+                        </labels>
+                        <control id="transactioncurrencyid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="transactioncurrencyid" disabled="false" uniqueid="{31832ba8-6a4b-852b-4418-ab76d80010c9}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{CD5625B0-DDA8-4EE2-B13F-B9331E027C8A}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <formLibraries>
+        <Library name="msdyn_/Libraries/require/require.js" libraryUniqueId="{b430ae29-6850-0593-2219-b06b3ab18db1}" />
+        <Library name="msdyn_/Contract/Scripts/ContractLineInvoiceMilestoneInitialization.js" libraryUniqueId="{0a61755b-4a4c-90e0-41c8-3a1e7a2b8a79}" />
+      </formLibraries>
+      <events>
+        <event name="onload" application="false" active="false">
+          <Handlers>
+            <Handler functionName="msdyn.contractMilestone.initializePage" libraryName="msdyn_/Contract/Scripts/ContractLineInvoiceMilestoneInitialization.js" handlerUniqueId="{70c3261d-5c78-48b3-2d27-70a9c2a6cc7b}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+        </event>
+      </events>
+      <controlDescriptions />
+      <formparameters>
+        <querystringparameter name="msdyn_Contract" type="SafeString" />
+        <querystringparameter name="msdyn_ContractName" type="SafeString" />
+      </formparameters>
+      <DisplayConditions Order="1">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+      </DisplayConditions>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Project Quick Create" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Shows the contract line schedule of values quick create page for Project Service." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>
