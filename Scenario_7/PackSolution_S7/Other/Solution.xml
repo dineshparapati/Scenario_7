@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.1.0.2224" SolutionPackageVersion="9.1" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SolutionManifest>
+    <UniqueName>Scenario_7</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="Scenario_7" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>1.0.0.0</Version>
+    <Managed>1</Managed>
+    <Publisher>
+      <UniqueName>DefaultPublishercrmstage14</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="Default Publisher for crmstage14" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions>
+        <Description description="Default publisher for this organization" languagecode="1033" />
+      </Descriptions>
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>new</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>10000</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode xsi:nil="true"></AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode xsi:nil="true"></ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode xsi:nil="true"></AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode xsi:nil="true"></ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="account" behavior="1" />
+      <RootComponent type="60" id="{098ae145-1567-41ec-8398-86dbaac70c9b}" />
+      <RootComponent type="60" id="{2205c86d-ed88-4a2f-a447-3b86a8781f2e}" />
+      <RootComponent type="60" id="{43300723-f867-420b-ab28-976a4d12e6c4}" />
+      <RootComponent type="60" id="{69cff312-cfb6-4289-9631-249ab85d2c62}" />
+      <RootComponent type="60" id="{74da4947-5d1d-4400-9f99-c6ed578211bb}" />
+      <RootComponent type="60" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
+      <RootComponent type="60" id="{894155a3-95d5-4881-b9c3-04444cef1bcc}" />
+      <RootComponent type="60" id="{a72c7955-442b-4ea4-9499-b10cd18b4256}" />
+      <RootComponent type="60" id="{b028db32-3619-48a5-ac51-cf3f947b0ef3}" />
+      <RootComponent type="60" id="{c9e7ec2d-efca-4e4c-b3e3-f63c4bba5e4b}" />
+      <RootComponent type="60" id="{cb430327-bcc1-416d-959d-db7592e685af}" />
+      <RootComponent type="60" id="{cccff382-2b92-467e-bf1b-3db179512af8}" />
+      <RootComponent type="91" id="{ed54aed4-8d27-4b4c-8cd9-28f059ac3c32}" schemaName="Scenario_7, Version=1.0.0.0, Culture=neutral, PublicKeyToken=6990c824aba580e5" behavior="0" />
+      <RootComponent type="92" id="{e562333d-6929-e911-a979-000d3af24324}" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required key="0" type="60" displayName="Account Summary Card" parentDisplayName="Account" solution="FieldService (8.3.0.225)" id="{894155a3-95d5-4881-b9c3-04444cef1bcc}" />
+        <Dependent key="0" type="60" displayName="Account Summary Card" parentDisplayName="Account" id="{894155a3-95d5-4881-b9c3-04444cef1bcc}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="1" type="60" displayName="Account Hierarchy Tile Form" parentDisplayName="Account" solution="msdynce_AppCommon (9.0.4.0066)" id="{69cff312-cfb6-4289-9631-249ab85d2c62}" />
+        <Dependent key="1" type="60" displayName="Account Hierarchy Tile Form" parentDisplayName="Account" id="{69cff312-cfb6-4289-9631-249ab85d2c62}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="2" type="60" displayName="Social Profiles" parentDisplayName="Account" solution="msdynce_AppCommon (9.0.4.0066)" id="{2205c86d-ed88-4a2f-a447-3b86a8781f2e}" />
+        <Dependent key="2" type="60" displayName="Social Profiles" parentDisplayName="Account" id="{2205c86d-ed88-4a2f-a447-3b86a8781f2e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="3" type="60" displayName="Account Card form" parentDisplayName="Account" solution="msdynce_AppCommon (9.0.4.0066)" id="{cccff382-2b92-467e-bf1b-3db179512af8}" />
+        <Dependent key="3" type="60" displayName="Account Card form" parentDisplayName="Account" id="{cccff382-2b92-467e-bf1b-3db179512af8}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="4" type="60" displayName="Account Reference Panel" parentDisplayName="Account" solution="msdynce_AppCommon (9.0.4.0066)" id="{098ae145-1567-41ec-8398-86dbaac70c9b}" />
+        <Dependent key="4" type="60" displayName="Account Reference Panel" parentDisplayName="Account" id="{098ae145-1567-41ec-8398-86dbaac70c9b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="5" type="60" displayName="Recent Cases and Entitlements" parentDisplayName="Account" solution="msdynce_Service (9.0.5.56)" id="{43300723-f867-420b-ab28-976a4d12e6c4}" />
+        <Dependent key="5" type="60" displayName="Recent Cases and Entitlements" parentDisplayName="Account" id="{43300723-f867-420b-ab28-976a4d12e6c4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="6" type="60" displayName="Account for Interactive experience" parentDisplayName="Account" solution="msdynce_AppCommon (9.0.4.0066)" id="{a72c7955-442b-4ea4-9499-b10cd18b4256}" />
+        <Dependent key="6" type="60" displayName="Account for Interactive experience" parentDisplayName="Account" id="{a72c7955-442b-4ea4-9499-b10cd18b4256}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="7" type="60" displayName="Account - Mobile" parentDisplayName="Account" solution="FieldService (8.3.0.225)" id="{74da4947-5d1d-4400-9f99-c6ed578211bb}" />
+        <Dependent key="7" type="60" displayName="Account - Mobile" parentDisplayName="Account" id="{74da4947-5d1d-4400-9f99-c6ed578211bb}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="8" type="60" displayName="account card" parentDisplayName="Account" solution="msdynce_AppCommon (9.0.4.0066)" id="{b028db32-3619-48a5-ac51-cf3f947b0ef3}" />
+        <Dependent key="8" type="60" displayName="account card" parentDisplayName="Account" id="{b028db32-3619-48a5-ac51-cf3f947b0ef3}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="9" type="60" displayName="Sales Insights" parentDisplayName="Account" solution="SICommon (9.0.1.70227)" id="{cb430327-bcc1-416d-959d-db7592e685af}" />
+        <Dependent key="9" type="60" displayName="Sales Insights" parentDisplayName="Account" id="{cb430327-bcc1-416d-959d-db7592e685af}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="10" type="60" displayName="Account Quick Create" parentDisplayName="Account" solution="msdynce_AppCommon (9.0.4.0066)" id="{c9e7ec2d-efca-4e4c-b3e3-f63c4bba5e4b}" />
+        <Dependent key="10" type="60" displayName="Account Quick Create" parentDisplayName="Account" id="{c9e7ec2d-efca-4e4c-b3e3-f63c4bba5e4b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="11" type="60" displayName="Account" parentDisplayName="Account" solution="msdynce_AppCommon (9.0.4.0066)" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
+        <Dependent key="11" type="60" displayName="Account" parentDisplayName="Account" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>
