@@ -77,6 +77,11 @@
     <Content Include="bin\coretools\Newtonsoft.Json.dll" />
     <Content Include="bin\coretools\Other Redistributable.txt" />
     <Content Include="bin\coretools\SolutionPackager.exe" />
+    <Content Include="Scenario_7_PackSolution\Other\Customizations.xml" />
+    <Content Include="Scenario_7_PackSolution\Other\Relationships.xml" />
+    <Content Include="Scenario_7_PackSolution\Other\Solution.xml" />
+    <Content Include="Scenario_7_PackSolution\PluginAssemblies\Scenario_7-ED54AED4-8D27-4B4C-8CD9-28F059AC3C32\Scenario_7.dll" />
+    <Content Include="Scenario_7_PackSolution\PluginAssemblies\Scenario_7-ED54AED4-8D27-4B4C-8CD9-28F059AC3C32\Scenario_7.dll.data.xml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="bin\Debug\" />
