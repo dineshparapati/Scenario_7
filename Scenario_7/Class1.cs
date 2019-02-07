@@ -19,7 +19,7 @@ namespace Scenario_7
                 try
                 {
                     Entity followup = new Entity("task");
-                    followup["subject"] = "Send e-mail to the new customer.";
+                    followup["subject"] = "Call to Customer.";
                     followup["description"] = "Follow up with the customer. Check if there are any new issues that need resolution.";
                     followup["scheduledstart"] = DateTime.Now;
                     followup["scheduledend"] = DateTime.Now.AddDays(2);
