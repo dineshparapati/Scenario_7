@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{b2e1a229-0bba-4189-9eb5-24d9ce115608}</formid>
+    <IntroducedVersion>3.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab id="{fcc2b6d6-155c-42c4-a1a9-9563f4602467}" name="tab_1" showlabel="false">
+          <labels>
+            <label description="Tab" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="33%">
+              <sections>
+                <section id="{2d470bd8-b960-42bc-b726-08deb8dc27f4}" name="tab_1_column_1_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{ea708973-ad38-2073-c640-365c655eb3a2}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Dimension Name" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msdyn_name" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{359c2d34-a464-5aac-c4a3-2d3a6abb0640}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{374cd5d4-92b6-88aa-2183-839454b719a6}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Type" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_type" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="msdyn_type" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{dac0e50e-e90c-2eda-3d71-b043136746be}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Applicable To Cost" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_applicabletocost" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="msdyn_applicabletocost" disabled="false" uniqueid="{e6c33aa3-0da9-aaed-7c93-2a580eba64d5}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{16a8d381-3ed4-61a0-91c2-b490e9ac924c}" showlabel="true" locklevel="0" visible="false">
+                        <labels>
+                          <label description="Applicable To Purchase" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_applicabletopurchase" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="msdyn_applicabletopurchase" disabled="true" uniqueid="{13b98087-05c2-3258-1814-db6d54dcd23b}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{421a25d0-6051-270d-c122-337508a9b3d9}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Applicable To Sales" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_applicabletosales" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="msdyn_applicabletosales" disabled="false" uniqueid="{3474659c-324a-b5db-ab7b-ea600d125e32}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="{0229b7bc-3156-4402-a021-536324884d9e}" name="tab_1_column_2_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{b7904745-3bde-738d-14c7-4750cad4b9b7}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Cost Priority" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_costpriority" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="msdyn_costpriority" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{dee4dee7-a003-767d-6cd4-eed6cca97bd9}" showlabel="true" locklevel="0" visible="false">
+                        <labels>
+                          <label description="Purchase Priority" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_purchasepriority" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="msdyn_purchasepriority" disabled="true" uniqueid="{a25847ec-856a-3966-ae51-5a0595113146}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{386d9b2c-3d38-0b5e-550c-218cd7ea1b63}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Sales Priority" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_salespriority" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="msdyn_salespriority" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="{af190eac-3cfd-4770-b9d6-69d7f86462e5}" name="tab_1_column_3_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0" locklevel="0" labelwidth="130" celllabelalignment="Left" celllabelposition="Left" visible="false" availableforphone="true">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{c2263fe0-75a6-4bdb-80f4-fa3e015b7419}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <controlDescriptions />
+      <DisplayConditions Order="1">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="New Form" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

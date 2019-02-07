@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{67255531-7c7e-4fc6-8e7d-10b932bb4529}</formid>
+    <IntroducedVersion>1.0.1.1</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab id="{60a72f66-30ae-430e-a1c8-26e7ae834249}" name="tab_1" showlabel="true">
+          <labels>
+            <label description="Details" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section id="{0f2c98ed-fa2c-4538-9193-e94f7daa0223}" name="tab_1_column_1_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="Expense Entry" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{63dbc6dd-3702-cd05-7232-c9141c8b2189}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Transaction Date" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_transactiondate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="msdyn_transactiondate" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{42291558-d3b4-4a33-e7ed-e7e33656a2e9}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Expense Category" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_expensecategory" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msdyn_expensecategory" disabled="true">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{EE5F445E-7565-498B-B70E-EC588A987CE4}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ad23c07a-6963-24d2-347c-78e945564a88}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="External Description" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_externaldescription" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msdyn_externaldescription" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{cca37d5e-234b-6552-16e5-56369d8729b7}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Unit Group" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_unitgroup" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msdyn_unitgroup" disabled="true" uniqueid="{d1152c52-a952-d71c-6e5c-052ae6095b73}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{2D013A3A-07CD-4163-8208-8E8E605492F4}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{562c35bb-db5c-07ad-b9e5-5d345dcd2bb9}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Unit" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_unit" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msdyn_unit" disabled="true" uniqueid="{87210c9e-441c-e7d1-aa26-77655866bed7}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{4DA6F46B-3649-4D0E-B5D2-CCB590F4227D}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{297de235-e63a-60e5-db4a-de76e3abb8e2}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Quantity" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_quantity" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="msdyn_quantity" disabled="true" uniqueid="{8dc9209c-d0b9-e940-c7c9-90579582708a}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1c061158-a5db-a98d-3245-8a47e70865a5}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Price" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_price" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msdyn_price" disabled="true" uniqueid="{e1a3b4ae-7083-7765-5341-6cc9370385d8}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{20eb0276-7645-db05-6a0a-535be1040911}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Currency" languagecode="1033" />
+                        </labels>
+                        <control id="transactioncurrencyid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="transactioncurrencyid" disabled="true">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{CD5625B0-DDA8-4EE2-B13F-B9331E027C8A}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{19180323-acc4-1799-1b89-88a87a5d3366}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Amount" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_amount" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msdyn_amount" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{714bb528-89e0-02b4-3252-63c7580490c8}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Sales tax amount" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_salestaxamount" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msdyn_salestaxamount" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2577dbdd-05ab-4179-a4e1-ea9e86dc99c7}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Total Amount" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_totalamount" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msdyn_totalamount" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{492b549d-e750-3806-36e6-d02a8536122d}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Project" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_project" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msdyn_project" disabled="true">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{C6646673-0205-4F29-A267-FDBF47B078B4}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="1">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+      </DisplayConditions>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="New Form" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

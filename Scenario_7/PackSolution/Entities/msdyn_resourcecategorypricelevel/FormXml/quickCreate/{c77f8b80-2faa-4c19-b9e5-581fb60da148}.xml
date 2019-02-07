@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{c77f8b80-2faa-4c19-b9e5-581fb60da148}</formid>
+    <IntroducedVersion>1.0.0.1</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form maxWidth="1900">
+      <tabs>
+        <tab id="{a5e8f3af-1c8b-4d90-aafd-caef5d5d6631}" name="tab_1" showlabel="false">
+          <labels>
+            <label description="Tab" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="33%">
+              <sections>
+                <section id="{26ee270b-1683-4b55-94b7-faa53da388dc}" name="tab_1_column_1_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{6dc2e14e-27d6-49d5-e07e-432cab816e33}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Role" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_resourcecategory" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msdyn_resourcecategory" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e99ac2ad-c1c1-9553-acbb-9c5b8567902c}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Resourcing Unit" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_organizationalunit" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msdyn_organizationalunit" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4e1991a9-7a83-7661-64d7-26e109ca4a9d}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Price" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_price" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msdyn_price" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="{bb925ef9-9c48-4dd2-b580-9ab0c21ae8af}" name="tab_1_column_2_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{7641b9c6-e66c-cc9e-418e-5310dadcb6b7}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Unit Schedule" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_unitschedule" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msdyn_unitschedule" disabled="true">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{2D013A3A-07CD-4163-8208-8E8E605492F4}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{dc89ae96-d9c3-d679-7ea3-2c32dc04397a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Unit" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_unit" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msdyn_unit" disabled="true">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{4DA6F46B-3649-4D0E-B5D2-CCB590F4227D}</DefaultViewId>
+                            <DependentAttributeType>uomschedule</DependentAttributeType>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1bdb7933-a78c-de11-87a9-2b6a7139b777}" showlabel="false" locklevel="0" visible="false">
+                        <labels>
+                          <label description="Project Price List" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_pricelist" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msdyn_pricelist" disabled="false">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{EE499892-35E1-4D07-A1B7-BB69FE9BFD42}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="{84256e1f-1c6c-45a2-aa6d-c584cace9a0f}" name="tab_1_column_3_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{b7403447-6b14-3a28-d656-517661ea3697}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <formLibraries>
+        <Library name="msdyn_/Libraries/SDK.Rest/SDK.REST.js" libraryUniqueId="{12184511-a1b8-6479-5e94-4e519cd17759}" />
+        <Library name="msdyn_/Libraries/require/require.js" libraryUniqueId="{ed407e42-75b4-529d-8dae-25cd37538a66}" />
+        <Library name="msdyn_/ContractBilling/Scripts/PriceView.js" libraryUniqueId="{171a13d4-50c4-881a-8a70-aa1190661b2d}" />
+      </formLibraries>
+      <events>
+        <event name="onload" application="false" active="false">
+          <Handlers>
+            <Handler functionName="initializeForm" libraryName="msdyn_/ContractBilling/Scripts/PriceView.js" handlerUniqueId="{50a526bc-8eac-0ae2-4325-be5e578a7aa1}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+        </event>
+      </events>
+      <DisplayConditions Order="1">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+      </DisplayConditions>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Quick Create" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

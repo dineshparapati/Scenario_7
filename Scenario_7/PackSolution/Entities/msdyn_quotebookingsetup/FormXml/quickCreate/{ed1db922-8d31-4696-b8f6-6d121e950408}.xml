@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{ed1db922-8d31-4696-b8f6-6d121e950408}</formid>
+    <IntroducedVersion>6.1.0.959</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form maxWidth="1900">
+      <tabs>
+        <tab id="{f1758eef-039b-4bed-86e4-5a22ce92d233}" name="tab_1" showlabel="false">
+          <labels>
+            <label description="Tab" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="33%">
+              <sections>
+                <section id="{44ce3d2b-1cfc-4a91-b181-08d0dc58344f}" name="tab_1_column_1_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{e4caa015-c367-34bc-333a-7c4a93b89044}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msdyn_name" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="{2b3131c5-fb13-4f01-9c5d-04578f4930a9}" name="tab_1_column_2_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{5eed73c5-568c-6451-9a77-2749d9663707}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_description" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msdyn_description" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="{643bc8f7-c160-427e-83c6-3f36e3ebf5b8}" name="tab_1_column_3_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{8447d252-b3c6-e378-3e63-2a40a4c2a583}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Work Order Type" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_workordertype" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msdyn_workordertype" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{cdbb8916-9e74-2a33-6e89-9b0886b55323}" showlabel="true" locklevel="0" visible="false">
+                        <labels>
+                          <label description="QuoteDetailId" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_quotedetailid" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msdyn_quotedetailid" disabled="false" uniqueid="{036758e9-e6cb-72b9-b053-c156e8634390}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5b64ceac-ac2c-e271-4db7-78a8ad0943ea}" showlabel="true" locklevel="1" visible="false">
+                        <labels>
+                          <label description="Currency" languagecode="1033" />
+                        </labels>
+                        <control id="transactioncurrencyid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="transactioncurrencyid" disabled="false" uniqueid="{7e52e9d1-da53-c162-c06a-a506bb488830}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{CD5625B0-DDA8-4EE2-B13F-B9331E027C8A}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <formLibraries>
+        <Library name="msdyn_/Utils/json2.js" libraryUniqueId="{aee080a0-fd6c-11e7-8be5-0ed5f89f718b}" />
+        <Library name="msdyn_/Recurrence/Recurrence.Library.js" libraryUniqueId="{ab3087c6-fd6c-11e7-8be5-0ed5f89f718b}" />
+        <Library name="msdyn_/LocalizationLibrary/Localization.Library.js" libraryUniqueId="{ab308924-fd6c-11e7-8be5-0ed5f89f718b}" />
+        <Library name="msdyn_/Utils/jquery.min.js" libraryUniqueId="{ab308b22-fd6c-11e7-8be5-0ed5f89f718b}" />
+        <Library name="msdyn_/Utils/sdk.jquery.js" libraryUniqueId="{ab308de8-fd6c-11e7-8be5-0ed5f89f718b}" />
+        <Library name="msdyn_/QuoteBookingSetup/FieldService.QuoteBookingSetup.js" libraryUniqueId="{6411deb2-8715-1890-95e9-0b9aca24ae3c}" />
+      </formLibraries>
+      <events>
+        <event name="onload" application="false" active="false">
+          <Handlers>
+            <Handler functionName="FieldService.QuoteBookingSetup.Library.onLoad" libraryName="msdyn_/QuoteBookingSetup/FieldService.QuoteBookingSetup.js" handlerUniqueId="{d3a6cb53-1b2b-8a7d-3108-0bcea7ae20b4}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+        </event>
+      </events>
+      <controlDescriptions />
+      <DisplayConditions Order="1">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

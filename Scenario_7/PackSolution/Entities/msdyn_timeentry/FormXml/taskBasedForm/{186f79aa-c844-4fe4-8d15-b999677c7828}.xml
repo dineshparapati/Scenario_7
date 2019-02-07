@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{186f79aa-c844-4fe4-8d15-b999677c7828}</formid>
+    <IntroducedVersion>3.3.0.0</IntroducedVersion>
+    <FormPresentation>0</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <hiddencontrols></hiddencontrols>
+      <tabs>
+        <tab verticallayout="true" id="{a581ba29-2c81-4385-8a11-9db10f49d426}" name="pagestep3" locklevel="0" expanded="true">
+          <labels>
+            <label description="Time Entry Row Edit" languagecode="1033" />
+          </labels>
+          <tabheader id="{a1d63483-77a9-450c-9909-a04b87a0486a}">
+            <rows></rows>
+          </tabheader>
+          <tabfooter id="{d8015779-c5f8-4abf-b2a1-8cc62bc8f476}">
+            <rows>
+              <row>
+                <cell id="{965bafe4-63e8-44e9-8040-0a495843162c}">
+                  <labels>
+                    <label description="Done" languagecode="1033" />
+                  </labels>
+                  <control id="a581ba29-2c81-4385-8a11-9db10f49d426_next" datafieldname="a581ba29-2c81-4385-8a11-9db10f49d426_next" classid="{00ad73da-bd4d-49c6-88a8-2f4f4cad4a20}" isunbound="true" />
+                </cell>
+              </row>
+            </rows>
+          </tabfooter>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{920f81ea-7b0e-47c5-a1f0-a4cc4024ab9f}" name="pagestep3_section1">
+                  <labels>
+                    <label description="" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{a5bdd206-5ebb-416e-83bd-82c38ed3ab0d}" showlabel="true" visible="true">
+                        <labels>
+                          <label description="Project" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_project" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="msdyn_project" disabled="false">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{57939B7C-CDB3-E511-80E4-00155DB8D81D}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                            <AvailableViewIds>{BFCA68EE-CAB3-E511-80E4-00155DB8D81D},{57939B7C-CDB3-E511-80E4-00155DB8D81D}</AvailableViewIds>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6890ca36-29a5-4c04-849b-d2a958f13116}" showlabel="true" visible="true">
+                        <labels>
+                          <label description="Project Task" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_projecttask" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="msdyn_projecttask" disabled="false">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{4792D21C-D6B4-E511-80E4-00155DB8D81D}</DefaultViewId>
+                            <FilterRelationshipName>msdyn_msdyn_project_msdyn_projecttask_project</FilterRelationshipName>
+                            <DependentAttributeName>msdyn_timeentry.msdyn_project</DependentAttributeName>
+                            <DependentAttributeType>msdyn_project</DependentAttributeType>
+                            <AllowFilterOff>false</AllowFilterOff>
+                            <AvailableViewIds>{41AD6900-D1B4-E511-80E4-00155DB8D81D},{4792D21C-D6B4-E511-80E4-00155DB8D81D}</AvailableViewIds>
+                            <IsInlineNewEnabled>false</IsInlineNewEnabled>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{58486175-426c-4c63-a389-f9849e8f7248}" showlabel="true" visible="true">
+                        <labels>
+                          <label description="Role" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_resourcecategory" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="msdyn_resourcecategory" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{66605a12-85ed-4b88-bdf2-ef743d3242c1}" showlabel="true" visible="true">
+                        <labels>
+                          <label description="Type" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_type" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="msdyn_type" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8da7e8ab-3bc6-45e0-aac7-44b1dfa2be36}" showlabel="true" visible="true">
+                        <labels>
+                          <label description="Entry Status" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_entrystatus" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="msdyn_entrystatus" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Time Entry Row Edit" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

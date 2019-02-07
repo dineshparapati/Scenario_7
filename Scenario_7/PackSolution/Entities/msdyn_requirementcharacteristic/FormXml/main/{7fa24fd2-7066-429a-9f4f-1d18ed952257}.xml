@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{7fa24fd2-7066-429a-9f4f-1d18ed952257}</formid>
+    <IntroducedVersion>1.0.0.5</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{18330169-4fd5-4b21-902e-773b02f41511}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="33%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{250b0ebc-391b-4921-ba89-c235d05c2344}" name="{250b0ebc-391b-4921-ba89-c235d05c2344}" columns="1" locklevel="0" labelwidth="175" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{4bbe55ce-6fd9-4dd5-bfec-9db048e97bcb}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d7ea9304-3464-a382-cb1b-8a8122e0986e}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Characteristic" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_characteristic" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msdyn_characteristic" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{852a6214-09c8-d1ea-8a78-5d82168846b6}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Rating Value" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_ratingvalue" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msdyn_ratingvalue" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7b200a6d-8572-8b6e-0e28-b238045156ea}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Resource Requirement" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_resourcerequirement" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msdyn_resourcerequirement" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="66%">
+              <sections>
+                <section showlabel="false" showbar="false" id="{a2a0abcd-7278-434d-b645-8112b96a7b90}" IsUserDefined="0" height="auto">
+                  <labels>
+                    <label description="Notes" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell showlabel="false" rowspan="8" auto="false" id="{fbd739ad-148a-4cab-8591-62ef5940a335}">
+                        <labels>
+                          <label description="Note Text" languagecode="1033" />
+                        </labels>
+                        <control id="notescontrol" classid="{06375649-c143-495e-a496-c962e5b4488e}">
+                          <parameters>
+                            <DefaultTabId>NotesTab</DefaultTabId>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row height="auto" />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_3" id="{bbd9b38d-cdc2-56c3-1de9-568c8601a5a6}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+          <labels>
+            <label description="Field Service" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_3_section_2" showlabel="false" showbar="false" locklevel="0" id="{5e29186c-cb05-0a7e-ac1e-3e41d5a750cd}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{194d62b7-d8a9-6e5c-66d2-19c2e1888187}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Work Order" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_workorder" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msdyn_workorder" disabled="false" />
+                      </cell>
+                      <cell id="{55a97d75-09ae-b23a-aaea-70dbeb250be6}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Work Order Incident" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_workorderincident" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msdyn_workorderincident" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <Navigation>
+        <NavBar />
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

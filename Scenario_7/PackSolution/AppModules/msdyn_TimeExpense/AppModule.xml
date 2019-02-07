@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModule>
+  <UniqueName>msdyn_TimeExpense</UniqueName>
+  <IntroducedVersion>9.0.0.0</IntroducedVersion>
+  <WebResourceId>0dbbf298-d19a-454c-9965-91ccf1e65465</WebResourceId>
+  <FormFactor>1</FormFactor>
+  <ClientType>4</ClientType>
+  <AppModuleComponents>
+    <AppModuleComponent type="62" schemaName="msdyn_TimeExpense" />
+    <AppModuleComponent type="1" schemaName="msdyn_expense" />
+    <AppModuleComponent type="1" schemaName="msdyn_timeentry" />
+  </AppModuleComponents>
+  <AppModuleRoleMaps>
+    <Role id="{4d5c0a89-55b1-e411-80de-00155db98106}" />
+    <Role id="{a4d4a4ed-e6a7-e411-80d9-00155db98105}" />
+    <Role id="{09b5c4ee-c1ac-e411-80da-00155db98105}" />
+    <Role id="{65b5eb53-2ea3-e411-80d5-00155db98105}" />
+    <Role id="{1bf7af34-c0d8-e411-80e7-fc15b4282bc4}" />
+    <Role id="{a39e17fe-12ab-e411-80d9-00155db98105}" />
+    <Role id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+    <Role id="{d33acc3c-52a0-e511-80e9-00155db96303}" />
+    <Role id="{627090ff-40a3-4053-8790-584edc5be201}" />
+  </AppModuleRoleMaps>
+  <LocalizedNames>
+    <LocalizedName description="Project Resource Hub" languagecode="1033" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description description="Project Resource Hub Module" languagecode="1033" />
+  </Descriptions>
+</AppModule>

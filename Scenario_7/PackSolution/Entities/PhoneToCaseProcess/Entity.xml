@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity>
+  <Name LocalizedName="Phone To Case Process" OriginalName="Phone To Case Process">PhoneToCaseProcess</Name>
+  <FormXml />
+  <RibbonDiffXml />
+</Entity>

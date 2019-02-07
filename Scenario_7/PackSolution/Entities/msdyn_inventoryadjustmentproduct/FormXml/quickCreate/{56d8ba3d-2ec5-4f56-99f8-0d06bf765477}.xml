@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{56d8ba3d-2ec5-4f56-99f8-0d06bf765477}</formid>
+    <IntroducedVersion>8.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form maxWidth="1920">
+      <tabs>
+        <tab id="{421f456a-4dd9-4d8f-92a9-8b4a0e8058b5}" name="tab_1" showlabel="false">
+          <labels>
+            <label description="Tab" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="33%">
+              <sections>
+                <section id="{9ed7ee68-c515-4c13-81cc-041a3265bbcc}" name="tab_1_column_1_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{58ed96eb-b4ab-ce86-1652-60c089c23a46}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Product" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_product" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msdyn_product" disabled="false" uniqueid="{c159c7b1-4c0d-7b35-e549-626a39e4e4cb}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{637D30FC-5AE1-E111-BBE0-000C2959F9B8}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2b2db168-d8a6-5463-3ba2-4cc3694168ca}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Unit" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_unit" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msdyn_unit" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{567a1b6e-4170-e525-4669-06cd44db0051}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Quantity" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_quantity" classid="{0D2C745A-E5A8-4c8f-BA63-C6D3BB604660}" datafieldname="msdyn_quantity" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="{aa966a3d-eaa2-48c1-9078-c890d6472a07}" name="tab_1_column_2_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{2811a215-0460-b1e9-8a04-599a1380b594}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Inventory Transfer" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_inventorytransfer" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msdyn_inventorytransfer" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{58ad4b4d-0329-899d-ce21-51b2d2a238a6}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Inventory Adjustment" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_inventoryadjustment" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msdyn_inventoryadjustment" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="{960a025a-1b1f-4c0d-93e6-49140501a786}" name="tab_1_column_3_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{2f1a8eef-36df-49a3-91e8-f3d256356c8c}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <formLibraries>
+        <Library name="msdyn_/Utils/head.js" libraryUniqueId="{c669323d-6aae-136c-6b78-b98ec6eae2d4}" />
+        <Library name="msdyn_/InventoryAdjustmentProduct/InventoryAdjustmentProduct.js" libraryUniqueId="{c62998b2-33a5-a6d8-6e51-dd14e087db3d}" />
+      </formLibraries>
+      <events>
+        <event name="onload" application="false" active="false">
+          <Handlers>
+            <Handler functionName="InventoryAdjustmentProducts.Library.OnLoad" libraryName="msdyn_/InventoryAdjustmentProduct/InventoryAdjustmentProduct.js" handlerUniqueId="{6ce1ea65-4723-2065-c520-0ab935ecd78d}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+        </event>
+      </events>
+      <controlDescriptions />
+      <DisplayConditions Order="1">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Quick Create Inventory Adjustment Product" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

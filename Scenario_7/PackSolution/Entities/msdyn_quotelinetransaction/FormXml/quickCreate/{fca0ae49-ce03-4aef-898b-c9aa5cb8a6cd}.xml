@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{fca0ae49-ce03-4aef-898b-c9aa5cb8a6cd}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab id="{39af0a29-541e-4e00-935b-e6b6f30d7fda}" name="tab_1" showlabel="false">
+          <labels>
+            <label description="Tab" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="33%">
+              <sections>
+                <section id="{17face9e-5470-4ebd-8b19-b8fc55f8eceb}" name="tab_1_column_1_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0" locklevel="0" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{c9be55ae-a504-3a04-3208-a1d16680b500}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_description" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msdyn_description" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{90a254be-572d-a927-9a4c-54e5c2605a44}" showlabel="true" locklevel="0" visible="false">
+                        <labels>
+                          <label description="Quote" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_quoteid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msdyn_quoteid" disabled="false" uniqueid="{bb33c731-d675-6333-6aa7-16c91ab6b0b9}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{8d096984-da6d-4acf-9b9f-620e107a50f8}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a23b23d1-34e7-c6da-81a1-d9d0339baa45}" showlabel="true" locklevel="0" visible="false">
+                        <labels>
+                          <label description="Transaction Type" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_transactiontypecode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="msdyn_transactiontypecode" disabled="false" uniqueid="{ed48c567-3b60-bb94-9e04-1b388d5dc7d9}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d6bd522a-be7c-3eac-2b97-1b16a0d2b467}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Transaction Class" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_transactionclassification" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="msdyn_transactionclassification" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{533e9889-5dcd-0925-4851-026d4624cc6b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Role" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_resourcecategory" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msdyn_resourcecategory" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{49738e01-48a3-82e1-2532-55acde5d868a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Category" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_transactioncategory" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msdyn_transactioncategory" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="{cacc5c07-cbbb-47ae-ac6b-a221aa3a034c}" name="tab_1_column_2_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0" locklevel="0" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{59934c15-7b89-89aa-94dd-10974276581e}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Start Date" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_startdatetime" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="msdyn_startdatetime" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4a89a6be-ac73-e1e1-876d-a6b6d0644a44}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="End Date" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_enddatetime" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="msdyn_enddatetime" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{48721287-3bba-aa31-43a5-759671ebbbdd}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Resourcing Unit" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_resourceorganizationalunitid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msdyn_resourceorganizationalunitid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{102b4a57-d627-cb9a-e516-61cd70290359}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Unit Schedule" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_unitschedule" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msdyn_unitschedule" disabled="false">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{2D013A3A-07CD-4163-8208-8E8E605492F4}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{05aa96b1-2373-2784-e256-6d429286c726}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Unit" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_unit" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msdyn_unit" disabled="false">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>true</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{4DA6F46B-3649-4D0E-B5D2-CCB590F4227D}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="{c4f8cd1f-8516-4be7-8ec1-a0a487758103}" name="tab_1_column_3_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0" locklevel="0" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{a9a0a836-6e73-5074-02d9-67189d02b646}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Quantity" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_quantity" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="msdyn_quantity" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{214c3063-27bc-d99c-b53c-70a6348088a9}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Unit Price" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_price" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msdyn_price" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{021094ce-a656-958c-ce9a-7ba3eedc51a3}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Estimated Tax" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_tax" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msdyn_tax" disabled="false" uniqueid="{42891204-800c-0d26-2e34-9791052ac942}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9aeb03db-c079-337d-2cec-de76950ca116}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Sales Amount" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_amount" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msdyn_amount" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <formLibraries>
+        <Library name="msdyn_/Libraries/require/require.js" libraryUniqueId="{b590d3b4-abd0-0bae-0d5b-815bd1e084b8}" />
+        <Library name="msdyn_/Quote/Scripts/QuoteLineDetailInitialization.js" libraryUniqueId="{c2022a43-054c-5c10-c589-17a0a4ed0240}" />
+        <Library name="msdyn_/CategoryDefaulting/CategoryDefaultingForForm.js" libraryUniqueId="{8d62106a-294c-8202-901b-ec238eac4559}" />
+      </formLibraries>
+      <events>
+        <event name="onload" application="false" active="false">
+          <Handlers>
+            <Handler functionName="msdyn.quoteLineDetail.initializePage" libraryName="msdyn_/Quote/Scripts/QuoteLineDetailInitialization.js" handlerUniqueId="{43701b71-263b-1b6b-a486-b1d8de0c7cc0}" enabled="true" parameters="" passExecutionContext="true" />
+            <Handler functionName="msdyn.CategoryDefaulting.initializeDefaultingUtils" libraryName="msdyn_/CategoryDefaulting/CategoryDefaultingForForm.js" handlerUniqueId="{78eb20db-6cd6-090e-bb0b-a4c1303c5352}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+        </event>
+        <event name="onchange" application="false" active="false" attribute="msdyn_transactioncategory">
+          <Handlers>
+            <Handler functionName="msdyn.CategoryDefaulting.initializeDefaultUnitGroupAndUnit" libraryName="msdyn_/CategoryDefaulting/CategoryDefaultingForForm.js" handlerUniqueId="{5aa95158-028a-9c89-60c8-c94b0b0377ac}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+        </event>
+        <event name="onchange" application="false" active="false" attribute="msdyn_unitschedule">
+          <Handlers>
+            <Handler functionName="msdyn.CategoryDefaulting.resetUnit" libraryName="msdyn_/CategoryDefaulting/CategoryDefaultingForForm.js" handlerUniqueId="{63ca076b-9bb0-409a-31d5-6e8e675d5ebb}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+        </event>
+        <event name="onchange" application="false" active="false" attribute="msdyn_transactionclassification">
+          <Handlers>
+            <Handler functionName="msdyn.CategoryDefaulting.initializeDefaultUnitGroupAndUnit" libraryName="msdyn_/CategoryDefaulting/CategoryDefaultingForForm.js" handlerUniqueId="{2e7ac9ca-e714-4502-cacb-c9460c0675b8}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+        </event>
+      </events>
+      <formparameters>
+        <querystringparameter name="quoteLineDetail_includeTime" type="Boolean" />
+        <querystringparameter name="quoteLineDetail_includeExpense" type="Boolean" />
+        <querystringparameter name="quoteLineDetail_includeFee" type="Boolean" />
+      </formparameters>
+      <controlDescriptions />
+      <DisplayConditions Order="1">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+      </DisplayConditions>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Project Quick Create" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Shows the quote line detail quick create page for Project Service." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

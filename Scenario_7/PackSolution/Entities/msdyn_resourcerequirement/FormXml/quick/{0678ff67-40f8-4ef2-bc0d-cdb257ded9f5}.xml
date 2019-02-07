@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{0678ff67-40f8-4ef2-bc0d-cdb257ded9f5}</formid>
+    <IntroducedVersion>1.0.0.1</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form maxWidth="400">
+      <tabs>
+        <tab id="{9912e157-7af2-4dfb-baab-9f1fa7d1cf45}" name="tab_1" showlabel="false">
+          <labels>
+            <label description="Tab" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section id="{053a2e55-5ff6-4d56-b588-461eedf1da1e}" name="tab_1_column_1_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" locklevel="0" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="GENERAL" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{d9a068d9-9270-cae8-83e6-b51156bc93a0}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Project" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_projectid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msdyn_projectid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7bdab475-1be5-749c-6a2a-7432d4958d0d}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="From" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_fromdate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="msdyn_fromdate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{57b381ee-6c11-6906-b71d-3b5a9419ac5a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="To" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_todate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="msdyn_todate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c1692e73-4d8b-18ce-95e0-da9e1267e32a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Allocation Method" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_allocationmethod" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="msdyn_allocationmethod" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8a4db71c-a545-35e3-6ba3-b1d421b51843}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Work hour template" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_workhourtemplate" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msdyn_workhourtemplate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0c4a6c37-718a-39b6-9516-5c838c163954}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Percentage" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_percentage" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="msdyn_percentage" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{cd2eb724-4615-01ec-100d-8856d59cd7a2}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Duration" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_duration" classid="{AA987274-CE4E-4271-A803-66164311A958}" datafieldname="msdyn_duration" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="1">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+      </DisplayConditions>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="General" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

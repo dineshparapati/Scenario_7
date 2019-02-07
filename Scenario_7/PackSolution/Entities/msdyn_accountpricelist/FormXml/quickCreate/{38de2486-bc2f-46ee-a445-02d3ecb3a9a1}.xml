@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{38de2486-bc2f-46ee-a445-02d3ecb3a9a1}</formid>
+    <IntroducedVersion>1.0.0.1</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form maxWidth="1900">
+      <tabs>
+        <tab id="{fc4ec092-0d18-4e5d-9684-210e80bf5877}" name="Price list" showlabel="false" locklevel="0" expanded="true">
+          <labels>
+            <label description="Price list" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section id="{ed9092d1-5b0a-41c8-8b72-4d9378cfe1e8}" name="tab_1_column_1_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{2c2c0062-e8a6-6cc8-8040-38c137c38683}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Project Price List" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_pricelist" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msdyn_pricelist" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d7b7a716-20da-8a67-d112-56de83e388c8}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_description" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msdyn_description" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="0%">
+              <sections>
+                <section id="{c9596d9c-8feb-4c9b-b21f-2213c415b8dd}" name="tab_1_column_2_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{d5518649-ddbc-4a52-b70f-4df01e80174b}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="0%">
+              <sections>
+                <section id="{01b36d3b-6767-4142-b6f7-fe8f444be4b1}" name="tab_1_column_3_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{b953eb77-05ca-419e-b297-6a0788d912c5}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="1">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+      </DisplayConditions>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Quick create" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

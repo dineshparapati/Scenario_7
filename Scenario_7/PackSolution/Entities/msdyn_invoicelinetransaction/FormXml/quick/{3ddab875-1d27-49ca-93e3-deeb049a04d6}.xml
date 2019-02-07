@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{3ddab875-1d27-49ca-93e3-deeb049a04d6}</formid>
+    <IntroducedVersion>1.1.1.67</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab id="{a15d4958-8a57-4157-995d-cbd53f427440}" name="tab_1" showlabel="false">
+          <labels>
+            <label description="Tab" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section id="{4801dd30-0d02-44fc-8df9-794f652d3fdf}" name="tab_1_column_1_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{64e04756-76a0-972d-1856-ad5714427252}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_description" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msdyn_description" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d6846470-9814-7c33-0290-e6cc3edac4bb}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Billing Type" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_billingtype" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="msdyn_billingtype" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{022992b2-e24b-97c4-50d3-e9cdbe4d3628}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Price" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_price" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msdyn_price" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0bbd08db-45a1-a03b-9d11-9e418642b99c}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Quantity" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_quantity" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="msdyn_quantity" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6058d02d-d61a-b03a-e4c8-2ec44bb68b11}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Amount" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_amount" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msdyn_amount" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="1">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Line Detail Quick View" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>
