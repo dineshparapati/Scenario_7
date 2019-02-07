@@ -1,6 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Entity>
-  <Name LocalizedName="Playbook activity" OriginalName="Playbook activity">msdyn_playbookactivity</Name>
-  <FormXml />
-  <RibbonDiffXml />
-</Entity>

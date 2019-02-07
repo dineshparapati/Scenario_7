@@ -1,7 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<FieldSecurityProfiles>
-  <FieldSecurityProfile name="Field Service - Administrator" fieldsecurityprofileid="{8d988915-e392-e111-9d8c-000c2959f9b8}" unmodified="1" />
-  <FieldSecurityProfile name="Field Service - Dispatcher" fieldsecurityprofileid="{ffe8101c-e392-e111-9d8c-000c2959f9b8}" unmodified="1" />
-  <FieldSecurityProfile name="Field Service - Inventory Purchase" fieldsecurityprofileid="{ba74bcba-9b03-e411-9c30-00155da8fa1b}" unmodified="1" />
-  <FieldSecurityProfile name="Field Service - Resource" fieldsecurityprofileid="{8b504e22-e392-e111-9d8c-000c2959f9b8}" unmodified="1" />
-</FieldSecurityProfiles>

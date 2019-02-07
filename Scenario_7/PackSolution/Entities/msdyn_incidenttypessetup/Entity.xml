@@ -1,6 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Entity>
-  <Name LocalizedName="Incident Types Setup" OriginalName="Incident Types Setup">msdyn_incidenttypessetup</Name>
-  <FormXml />
-  <RibbonDiffXml />
-</Entity>
